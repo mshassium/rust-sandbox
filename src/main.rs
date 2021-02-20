@@ -2,9 +2,13 @@ use std::io;
 use std::io::Read;
 
 fn main() {
-    a344();
+    println!("Hello world!!!")
 }
 
+
+
+
+// Codeforces block start
 fn a344()-> io::Result<()> {
     let mut stdin = io::stdin();
     let mut count_str: String = String::new();
@@ -23,8 +27,6 @@ fn a344()-> io::Result<()> {
     println!("{}", result);
     Ok(())
 }
-
-
 fn a677() -> io::Result<()> {
     let stdin = io::stdin();
     let mut first_line: String = String::new();
@@ -44,8 +46,6 @@ fn a677() -> io::Result<()> {
     println!("{}", count);
     Ok(())
 }
-
-
 fn a734() -> std::io::Result<()> {
     let mut stdin = std::io::stdin();
     let mut count: String = String::new();
@@ -71,4 +71,5 @@ fn a734() -> std::io::Result<()> {
     }
     Ok(())
 }
+// Codeforces block end
 
